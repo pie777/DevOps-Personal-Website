@@ -32,7 +32,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>Java, Golang, C#, C/C++</h3>
+              <h3>Python, Golang, bash, Java, C</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-1"
@@ -42,7 +42,7 @@ export default class Skills extends Component {
                     aria-valuemax={100}
                     style={{ width: "90%" }}
                   >
-                    <span>90%</span>
+                    <span>95%</span>
                   </div>
                 </div>
               </div>
@@ -52,7 +52,8 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>Python</h3>
+              <h3>CI tools: CircleCI, Jenkins</h3>
+               
                 <div className="progress">
                   <div
                     className="progress-bar color-2"
@@ -62,7 +63,7 @@ export default class Skills extends Component {
                     aria-valuemax={100}
                     style={{ width: "95%" }}
                   >
-                    <span>95%</span>
+                    <span>90%</span>
                   </div>
                 </div>
               </div>
@@ -72,7 +73,8 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>HTML5, CSS3, JavaScript, SASS & SCSS</h3>
+                {/* <h3>HTML5, CSS3, JavaScript, SASS & SCSS</h3> */}
+                <h3>IAC and CM tools: Terraform, Serverless framework, Ansible</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-3"
@@ -92,7 +94,8 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>React, Node, Spring Boot, Node-red, JUnit, Microservices, Apache Tomcat, Nginx</h3>
+                {/* <h3>React, Node, Spring Boot, Node-red, JUnit, Microservices, Apache Tomcat, Nginx</h3> */}
+                <h3>Containerization: Docker, Kubernetes</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-4"
@@ -112,7 +115,8 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>Docker, Docker Swarm, Jenkins, Circle CI, git version control, Shell, Maven</h3>
+                {/* <h3>Docker, Kubernetes, Jenkins, Circle CI, git version control, Shell, Maven</h3> */}
+                <h3>Cloud: AWS VPC, Lambda, Aurora, Athena, Kinesis streams and firehose, S3, Glue</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-5"
@@ -132,7 +136,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>Microsoft SQL server,MongoDB, MySQL</h3>
+                <h3>Database: SQL server, MongoDB, Postgres</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-6"
@@ -152,7 +156,7 @@ export default class Skills extends Component {
               data-animate-effect="fadeInRight"
             >
               <div className="progress-wrap">
-                <h3>AWS S3, EC2, VPC, RDS, Amplify, SES, SNS</h3>
+                <h3>Libraries & Frameworks: React, Spring boot, Nodejs</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-6"
@@ -172,7 +176,27 @@ export default class Skills extends Component {
               data-animate-effect="fadeInLeft"
             >
               <div className="progress-wrap">
-                <h3>Sensors & Gateways, Wireless Sensor Networks, Lora Communication, MQTT protocols</h3>
+                <h3>Testing tools: Jest/Enzyme, Junit</h3>
+                <div className="progress">
+                  <div
+                    className="progress-bar color-5"
+                    role="progressbar"
+                    aria-valuenow={85}
+                    aria-valuemin={0}
+                    aria-valuemax={100}
+                    style={{ width: "85%" }}
+                  >
+                    <span>85%</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              className="col-md-6 animate-box"
+              data-animate-effect="fadeInLeft"
+            >
+              <div className="progress-wrap">
+                <h3>Other tools: Microservice, REST, Shell, Linux</h3>
                 <div className="progress">
                   <div
                     className="progress-bar color-5"

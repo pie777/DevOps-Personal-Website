@@ -23,11 +23,8 @@ export default class Expertise extends Component {
                   <i className="icon-bulb" />
                 </span>
                 <div className="desc">
-                  <h3>Front End Development</h3>
-                  <p>
-                    React, Javascript, React Native and Electron framework, SASS & SCSS
-                    styling, Nginx, Webpack and Babel{" "}
-                  </p>
+                <h3>DevOps</h3>
+                  <p>Serverless Framework, Docker, Kubernetes, Jenkins, Circle CI, Terraform, Ansible, AWS, Microservices, Linux</p>     
                 </div>
               </div>
             </div>
@@ -48,10 +45,10 @@ export default class Expertise extends Component {
                   <i className="icon-data" />
                 </span>
                 <div className="desc">
-                  <h3>Internet Of Things</h3>
+                <h3>Front End Development</h3>
                   <p>
-                    Wireless Sensor Networks, Gateways, Lora Network, MQTT
-                    protocol, Lighting and Alarm Systems, IoT Platform{" "}
+                    React, Javascript, React Native, Jest/Enzyme, SASS & SCSS
+                    styling, Nginx, Webpack and Babel{" "}
                   </p>
                 </div>
               </div>
@@ -64,8 +61,12 @@ export default class Expertise extends Component {
                   <i className="icon-data" />
                 </span>
                 <div className="desc">
-                  <h3>DevOps</h3>
-                  <p>Docker Containers, Docker Swarm, Jenkins, Circle CI, Amazon AWS EC2, S3, VPC, SES and SNS, Amplify and RDS, Microservices</p>
+               
+                  <h3>Internet Of Things</h3>
+                  <p>
+                    Wireless Sensor Networks, Gateways, Lora Network, MQTT
+                    protocol, Lighting and Alarm Systems, IoT Platform{" "}
+                  </p>
                 </div>
               </div>
             </div>
