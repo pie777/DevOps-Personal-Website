@@ -61,7 +61,7 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
@@ -165,7 +165,7 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
@@ -243,7 +243,7 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
@@ -374,7 +374,7 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
@@ -449,7 +449,7 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
@@ -526,7 +526,158 @@ export default class Work extends Component {
               <div className="row">
                 <div className="col-md-12">
                   <div className="timeline-centered">
-                  <article
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Terraform{" "}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: DevOps
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline",
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              Infrastructure as a Code, yml scripts, Terraform
+                              Configuration
+                            </div>
+                          </h2>
+                          Terraform is an Infrastructure as a Code software tool
+                          which provisions data center infrastructure using a
+                          declarative configuration language. This repository
+                          consists of different concepts that I have learned
+                          working on Terraform
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Terraform",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Terraform scripts </span>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-1">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Circle CI{" "}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: DevOps
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline",
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              CI/CD pipelines, yml scripts, setting up
+                              containers
+                            </div>
+                          </h2>
+                          Circle CI is a tool to build, test and deploy
+                          application automatically. These are circle CI scripts
+                          that I have used to build and deploy my applications.
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/Circle-CI",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Circle CI scripts </span>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
+                      className="timeline-entry animate-box"
+                      data-animate-effect="fadeInLeft"
+                      style={{ marginTop: "5%" }}
+                    >
+                      <div className="timeline-entry-inner">
+                        <div className="timeline-icon color-3">
+                          <i className="icon-pen2" />
+                        </div>
+                        <div className="timeline-label">
+                          <h2>
+                            <div style={{ color: "#f33612", fontSize: "25px" }}>
+                              Docker Containers{" "}
+                            </div>
+                            <div style={{ fontSize: "19px", color: "black" }}>
+                              Domain: DevOps
+                            </div>
+                            <div
+                              style={{
+                                fontSize: "15px",
+                                color: "#1414f5",
+                                textDecoration: "underline",
+                              }}
+                            >
+                              Technology Stacks and Skills:
+                            </div>
+                            <div style={{ fontSize: "15px" }}>
+                              Dockerfiles, docker compose files, containers,
+                              shell scripting
+                            </div>
+                          </h2>
+                          Docker Containers is the best adavancement that has
+                          ever happened in the software Technology. Here are
+                          some docker files that I have used to make my life
+                          simple :). I would be creating more Dockerfiles as and
+                          when needed to make my work ez pz.
+                          <div
+                            className="button"
+                            onClick={() => {
+                              window.open(
+                                "https://github.com/anish9461/DockerFiles",
+                                "_blank"
+                              );
+                            }}
+                          >
+                            <span> View Docker files </span>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+
+                    <article
                       className="timeline-entry animate-box"
                       data-animate-effect="fadeInLeft"
                       style={{ marginTop: "5%" }}
@@ -550,24 +701,31 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
                             </div>
                             <div style={{ fontSize: "15px" }}>
-                              Spring boot, JUnit Testing, Swagger UI, Maven, Apache Tomcat, Docker, Docker swarm, AWS VPC,SES,SNS,RDS
+                              Spring boot, JUnit Testing, Swagger UI, Maven,
+                              Apache Tomcat, Docker, Docker swarm, AWS
+                              VPC,SES,SNS,RDS
                             </div>
                           </h2>
                           <ul>
                             <li>
-                            Built REST APIs using spring boot with Unit and Integrations tests with endpoints documented on Swagger UI
+                              Built REST APIs using spring boot with Unit and
+                              Integrations tests with endpoints documented on
+                              Swagger UI
                             </li>
                             <li>
-                            Configured AWS VPC for master and worker AWS EC2 nodes to run docker services using docker swarm
+                              Configured AWS VPC for master and worker AWS EC2
+                              nodes to run docker services using docker swarm
                             </li>
                             <li>
-                            Utilized AWS SES and SNS for notification service and configured Jenkins pipeline to automate the application deployment
+                              Utilized AWS SES and SNS for notification service
+                              and configured Jenkins pipeline to automate the
+                              application deployment
                             </li>
                           </ul>
 
@@ -585,8 +743,7 @@ export default class Work extends Component {
                         </div>
                       </div>
                     </article>
-                    
-                    
+
                     <article
                       className="timeline-entry animate-box"
                       data-animate-effect="fadeInLeft"
@@ -611,7 +768,7 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
@@ -672,7 +829,7 @@ export default class Work extends Component {
                               style={{
                                 fontSize: "15px",
                                 color: "#1414f5",
-                                textDecoration: "underline"
+                                textDecoration: "underline",
                               }}
                             >
                               Technology Stacks and Skills:
@@ -704,105 +861,6 @@ export default class Work extends Component {
                             }}
                           >
                             <span> View Source Code </span>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-                    <article
-                      className="timeline-entry animate-box"
-                      data-animate-effect="fadeInLeft"
-                      style={{ marginTop: "5%" }}
-                    >
-                      <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-3">
-                          <i className="icon-pen2" />
-                        </div>
-                        <div className="timeline-label">
-                          <h2>
-                            <div style={{ color: "#f33612", fontSize: "25px" }}>
-                              Docker Containers{" "}
-                            </div>
-                            <div style={{ fontSize: "19px", color: "black" }}>
-                              Domain: DevOps
-                            </div>
-                            <div
-                              style={{
-                                fontSize: "15px",
-                                color: "#1414f5",
-                                textDecoration: "underline"
-                              }}
-                            >
-                              Technology Stacks and Skills:
-                            </div>
-                            <div style={{ fontSize: "15px" }}>
-                              Dockerfiles, docker compose files, containers,
-                              shell scripting
-                            </div>
-                          </h2>
-                          Docker Containers is the best adavancement that has
-                          ever happened in the software Technology. Here are
-                          some docker files that I have used to make my life
-                          simple :). I would be creating more Dockerfiles as and
-                          when needed to make my work ez pz.
-                          <div
-                            className="button"
-                            onClick={() => {
-                              window.open(
-                                "https://github.com/anish9461/DockerFiles",
-                                "_blank"
-                              );
-                            }}
-                          >
-                            <span> View Docker files </span>
-                          </div>
-                        </div>
-                      </div>
-                    </article>
-
-                    <article
-                      className="timeline-entry animate-box"
-                      data-animate-effect="fadeInLeft"
-                      style={{ marginTop: "5%" }}
-                    >
-                      <div className="timeline-entry-inner">
-                        <div className="timeline-icon color-1">
-                          <i className="icon-pen2" />
-                        </div>
-                        <div className="timeline-label">
-                          <h2>
-                            <div style={{ color: "#f33612", fontSize: "25px" }}>
-                              Circle CI{" "}
-                            </div>
-                            <div style={{ fontSize: "19px", color: "black" }}>
-                              Domain: DevOps
-                            </div>
-                            <div
-                              style={{
-                                fontSize: "15px",
-                                color: "#1414f5",
-                                textDecoration: "underline"
-                              }}
-                            >
-                              Technology Stacks and Skills:
-                            </div>
-                            <div style={{ fontSize: "15px" }}>
-                              CI/CD pipelines, yml scripts, setting up
-                              containers
-                            </div>
-                          </h2>
-                          Circle CI is a tool to build, test and deploy
-                          application automatically. These are circle CI scripts
-                          that I have used to build and deploy my applications.
-                          <div
-                            className="button"
-                            onClick={() => {
-                              window.open(
-                                "https://github.com/anish9461/Circle-CI",
-                                "_blank"
-                              );
-                            }}
-                          >
-                            <span> View Circle CI scripts </span>
                           </div>
                         </div>
                       </div>
