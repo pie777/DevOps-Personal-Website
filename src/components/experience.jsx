@@ -50,26 +50,73 @@ export default class Experience extends Component {
                             style={{
                               fontSize: "15px",
                               color: "#1414f5",
-                              textDecoration: "underline"
+                              textDecoration: "underline",
                             }}
                           >
                             Technology Stacks and Skills:
                           </div>
                           <div style={{ fontSize: "15px" }}>
                             React App, React Native, nodejs, javascript, Shell
-                            scripts, Python, Docker Containers, Node-Red, CircleCI, AWS
-                            S3, AWS EC2, Wireless Sensor Networks, Lora
-                            Communication, MQTT protocol
+                            scripts, Python, Docker Containers, Node-Red,
+                            CircleCI, AWS S3, AWS EC2, Wireless Sensor Networks,
+                            Lora Communication, MQTT protocol
                           </div>
                         </h2>
                         <p>
-                          I am working as a Full Stack Software/IoT Developer at
-                          IotRight in North Syracuse. My work goes from
-                          Application development with React and React-Native,
-                          DevOps and configuring Sensors and gateways on Lora
-                          network communicating over MQTT protocol on back-end. I have also designed the architecture and built end-to-end services for lighting, security systems to name a few. Here are the tasks I perform for Front-end, DevOps and
-                          on the Back-end
+                          I am working as a Full Stack Software Developer at
+                          IotRight in North Syracuse. I specialize in DevOps
+                          related work wherein I implement Continuous
+                          Integration workflows using CircleCI provision
+                          infrastructure using Terraform and work on building
+                          Docker containers. My work goes from Application
+                          development with React, DevOps and configuring Sensors
+                          and gateways on Lora network communicating over MQTT
+                          protocol on back-end. I have also designed the
+                          architecture and built end-to-end services for
+                          lighting, security systems to name a few. Here are the
+                          tasks I perform for Front-end, DevOps and on the
+                          Back-end
                         </p>
+
+                        <p>
+                          <b>DevOps</b>
+                        </p>
+                        <ul>
+                          <li>
+                            Wrote Terraform Script to build a Big Data pipeline
+                            for IoT using AWS services like AWS Kinesis,
+                            Firehose, Glue, S3, Lambda, Athena.
+                          </li>
+                          <li>
+                            Configured serverless scripts for serverless
+                            framework to code and deploy AWS Lambda functions
+                            and also automate the deployment using continuous
+                            integration tool Circle CI
+                          </li>
+                          <li>
+                            Slashed Configuration and Deployment time by 40% by
+                            implementing DevOps CI/CD practice using Jenkins to
+                            deploy and configure Internet of Things gateways for
+                            Security system, lighting system and other IoT
+                            systems
+                          </li>
+                          <li>
+                            Implemented automated testing, linting, and code
+                            coverage reports on CircleCI for React application
+                            using Jest
+                          </li>
+                          <li>
+                            Built and configured docker containers using
+                            docker-compose to test AWS services locally using
+                            serverless offline and localstack with serverless
+                            framework
+                          </li>
+                          <li>
+                            Designed and Created middleware using JavaScript,
+                            Python and Golang scripts to communicate with IoT
+                            sensors
+                          </li>
+                        </ul>
                         <p>
                           <b>Front-End</b>
                         </p>
@@ -100,27 +147,14 @@ export default class Experience extends Component {
                             a map.
                           </li>
                           <li>
-                            Real time Data visualization on the SVG’s using d3js library.
+                            Real time Data visualization on the SVG’s using d3js
+                            library.
                           </li>
                           <li>
                             SCSS customization and styling for the React App.{" "}
                           </li>
                         </ul>
-                        <p>
-                          <b>DevOps</b>
-                        </p>
-                        <ul>
-                          <li>
-                            Configuring Docker files for setting IoT platform
-                            dependencies and React App for Production and
-                            Deployment using Github, CircleCI and Amazon AWS
-                            (CI/CD).{" "}
-                          </li>
-                          <li>
-                            AWS EC2 to host the website and Amazon S3 bucket for
-                            data storage.
-                          </li>
-                        </ul>
+
                         <p>
                           <b>Back-End</b>
                         </p>
@@ -154,7 +188,8 @@ export default class Experience extends Component {
                             transferring data from “edge” to the IoT Platform
                           </li>
                           <li>
-                          Configuring Selecta DNA alarm system with python scripts and publisher subscriber model communication
+                            Configuring Selecta DNA alarm system with python
+                            scripts and publisher subscriber model communication
                           </li>
                         </ul>
                       </div>
@@ -191,7 +226,7 @@ export default class Experience extends Component {
                             style={{
                               fontSize: "15px",
                               color: "#1414f5",
-                              textDecoration: "underline"
+                              textDecoration: "underline",
                             }}
                           >
                             Technology Stacks and Skills:
@@ -265,7 +300,7 @@ export default class Experience extends Component {
                             style={{
                               fontSize: "15px",
                               color: "#1414f5",
-                              textDecoration: "underline"
+                              textDecoration: "underline",
                             }}
                           >
                             Technology Stacks and Skills:
