@@ -80,6 +80,8 @@
 // }
 
 import React, { Component } from "react";
+import awssaa from '../images/awssaa.png';
+import awscp from '../images/awscp.png';
 
 export default class Certifications extends Component {
   render() {
@@ -105,7 +107,12 @@ export default class Certifications extends Component {
                   <i className="icon-bulb" />
                 </span>
                 <div className="desc">
+                <a href="https://www.youracclaim.com/badges/9fc4f52c-5d9c-4575-8d54-ffd394700113/public_url" target="_blank" rel="noopener noreferrer">
                 <h3>AWS Cloud Practitioner</h3>
+                <img alt="awscp" src={awscp}
+         width="120" height="120" />
+      </a>
+         
                 </div>
               </div>
             </div>
@@ -115,7 +122,11 @@ export default class Certifications extends Component {
                   <i className="icon-phone3" />
                 </span>
                 <div className="desc">
+                <a href="https://www.youracclaim.com/badges/9108da04-8439-498d-ab68-2c514d1e029b/public_url" target="_blank" rel="noopener noreferrer">
                 <h3>AWS Solution Architect Associate</h3>
+                <img alt="awssaa" src={awssaa}
+         width="120" height="120" />
+      </a>
                 </div>
               </div>
             </div>
@@ -125,7 +136,11 @@ export default class Certifications extends Component {
                   <i className="icon-data" />
                 </span>
                 <div className="desc">
+                <a href="https://www.youracclaim.com/badges/9108da04-8439-498d-ab68-2c514d1e029b/public_url" target="_blank" rel="noopener noreferrer">
                 <h3>Terraform Certified Associate</h3>
+                <img alt="awssaa" src={awssaa}
+         width="120" height="120" />
+      </a>
                 </div>
               </div>
             </div>
