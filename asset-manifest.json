@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/DevOps-Personal-Website/static/css/main.632b9b4d.chunk.css",
-    "main.js": "/DevOps-Personal-Website/static/js/main.286acb23.chunk.js",
-    "main.js.map": "/DevOps-Personal-Website/static/js/main.286acb23.chunk.js.map",
-    "runtime~main.js": "/DevOps-Personal-Website/static/js/runtime~main.2f7d437f.js",
-    "runtime~main.js.map": "/DevOps-Personal-Website/static/js/runtime~main.2f7d437f.js.map",
-    "static/js/2.473d4818.chunk.js": "/DevOps-Personal-Website/static/js/2.473d4818.chunk.js",
-    "static/js/2.473d4818.chunk.js.map": "/DevOps-Personal-Website/static/js/2.473d4818.chunk.js.map",
-    "index.html": "/DevOps-Personal-Website/index.html",
-    "precache-manifest.d5c9770493a9e652d192f67a5dbe6a43.js": "/DevOps-Personal-Website/precache-manifest.d5c9770493a9e652d192f67a5dbe6a43.js",
-    "service-worker.js": "/DevOps-Personal-Website/service-worker.js",
-    "static/css/main.632b9b4d.chunk.css.map": "/DevOps-Personal-Website/static/css/main.632b9b4d.chunk.css.map",
-    "static/media/awscp.png": "/DevOps-Personal-Website/static/media/awscp.5df0f034.png",
-    "static/media/awssaa.png": "/DevOps-Personal-Website/static/media/awssaa.1fb04c9c.png"
+    "main.css": "/static/css/main.632b9b4d.chunk.css",
+    "main.js": "/static/js/main.1abb0353.chunk.js",
+    "main.js.map": "/static/js/main.1abb0353.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.473d4818.chunk.js": "/static/js/2.473d4818.chunk.js",
+    "static/js/2.473d4818.chunk.js.map": "/static/js/2.473d4818.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d07339f81c424ce8c9da52f38b7fadc1.js": "/precache-manifest.d07339f81c424ce8c9da52f38b7fadc1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.632b9b4d.chunk.css.map": "/static/css/main.632b9b4d.chunk.css.map",
+    "static/media/awscp.png": "/static/media/awscp.5df0f034.png",
+    "static/media/awssaa.png": "/static/media/awssaa.1fb04c9c.png"
   }
 }
