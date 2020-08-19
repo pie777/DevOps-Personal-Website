@@ -136,7 +136,7 @@ export default class Certifications extends Component {
                   <i className="icon-data" />
                 </span>
                 <div className="desc">
-                <a href="https://www.youracclaim.com/badges/9108da04-8439-498d-ab68-2c514d1e029b/public_url" target="_blank" rel="noopener noreferrer">
+                <a href="https://www.youracclaim.com/badges/e3b260e7-432d-4045-878b-3b40769ea3d2/public_url" target="_blank" rel="noopener noreferrer">
                 <h3>Terraform Certified Associate</h3>
                 <img alt="awssaa" src={awssaa}
          width="120" height="120" />
