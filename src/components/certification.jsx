@@ -104,7 +104,7 @@ export default class Certifications extends Component {
             <div className="col-md-4 text-center animate-box">
               <div className="services color-1">
                 <span className="icon">
-                  <i className="icon-bulb" />
+                  <i className="icon-amazon" />
                 </span>
                 <div className="desc">
                 <a href="https://www.youracclaim.com/badges/9fc4f52c-5d9c-4575-8d54-ffd394700113/public_url" target="_blank" rel="noopener noreferrer">
@@ -119,7 +119,7 @@ export default class Certifications extends Component {
             <div className="col-md-4 text-center animate-box">
               <div className="services color-3">
                 <span className="icon">
-                  <i className="icon-phone3" />
+                  <i className="icon-amazon" />
                 </span>
                 <div className="desc">
                 <a href="https://www.youracclaim.com/badges/9108da04-8439-498d-ab68-2c514d1e029b/public_url" target="_blank" rel="noopener noreferrer">
