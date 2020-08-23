@@ -82,11 +82,12 @@
 import React, { Component } from "react";
 import awssaa from '../images/awssaa.png';
 import awscp from '../images/awscp.png';
+import hcta from '../images/hcta.png';
 
 export default class Certifications extends Component {
   render() {
     return (
-      <section className="colorlib-about" data-section="expertise">
+      <section className="colorlib-about" data-section="certification">
         
         <div className="colorlib-narrow-content">
           <div className="row">
@@ -138,7 +139,7 @@ export default class Certifications extends Component {
                 <div className="desc">
                 <a href="https://www.youracclaim.com/badges/e3b260e7-432d-4045-878b-3b40769ea3d2/public_url" target="_blank" rel="noopener noreferrer">
                 <h3>Terraform Certified Associate</h3>
-                <img alt="awssaa" src={awssaa}
+                <img alt="hcta" src={hcta}
          width="120" height="120" />
       </a>
                 </div>
